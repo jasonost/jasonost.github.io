@@ -2466,14 +2466,14 @@ output {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(44, 62, 80, 0.6);
 }
 .form-control::-moz-placeholder {
-  color: #acb6c0;
+  color: #e6d1b7;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #acb6c0;
+  color: #e6d1b7;
 }
 .form-control::-webkit-input-placeholder {
-  color: #acb6c0;
+  color: #e6d1b7;
 }
 .form-control[disabled],
 .form-control[readonly],
@@ -2982,8 +2982,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: #ffffff;
-  background-color: #D9B991;
-  border-color: #D9B991;
+  background-color: #d9b991;
+  border-color: #d9b991;
 }
 .btn-success:hover,
 .btn-success:focus,
@@ -2993,7 +2993,7 @@ fieldset[disabled] .btn-primary.active {
 .open > .dropdown-toggle.btn-success {
   color: #ffffff;
   background-color: #59463b;
-  border-color: #11866f;
+  border-color: #d9b991;
 }
 .btn-success:active,
 .btn-success.active,
@@ -3018,11 +3018,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #D9B991;
-  border-color: #D9B991;
+  background-color: #d9b991;
+  border-color: #d9b991;
 }
 .btn-success .badge {
-  color: #D9B991;
+  color: #d9b991;
   background-color: #ffffff;
 }
 .btn-info {

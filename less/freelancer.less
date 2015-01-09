@@ -41,7 +41,8 @@ h6 {
 
 hr.star-light,
 hr.star-primary,
-hr.star-secondary {
+hr.star-secondary,
+hr.star-tertiary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -52,7 +53,8 @@ hr.star-secondary {
 
 hr.star-light:after,
 hr.star-primary:after,
-hr.star-secondary:after {
+hr.star-secondary:after,
+hr.star-tertiary:after {
     content: "\f097";
     display: inline-block;
     position: relative;
@@ -87,6 +89,15 @@ hr.star-secondary {
 hr.star-secondary:after {
     color: #fff;
     background-color: @brand-success;
+}
+
+hr.star-tertiary {
+    border-color: #fff;
+}
+
+hr.star-tertiary:after {
+    color: #fff;
+    background-color: @lowlight;
 }
 
 .img-centered {
@@ -208,34 +219,34 @@ section.success {
     }
 }
 
-#portfolio .portfolio-item {
+.portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+.portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
+.portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: @brand-primary-trans;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+.portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+.portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -246,12 +257,12 @@ section.success {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+.portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+.portfolio-item .portfolio-link .caption .caption-content h3,
+.portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
 }
 
@@ -259,8 +270,16 @@ section.success {
     z-index: 2;
 }
 
+#employment {
+    color: #fff;
+    background: @lowlight;
+}
+
+#employment * {
+    z-index: 2;
+}
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    .portfolio-item {
         margin: 0 0 30px;
     }
 }
