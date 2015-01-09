@@ -22,6 +22,9 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <!-- Custom favicon -->
+    <link rel="icon" href="favicon.ico">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -60,7 +63,7 @@
                         <a href="#portfolio">Projects</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#employment">Employment</a>
+                        <a href="#employment">Employers</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -99,10 +102,10 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>This will be some text about me.</p>
+                    <p>Thank you for visiting my website. I am a data scientist with a wide variety of professional experiences and interests, including economics, machine learning, politics, cartography, and more. This site provides information about selected projects and employers from my past and present, and I invite you to take a look.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>This will be some more text about me.</p>
+                    <p>Originally from Nebraska, I lived in DC for several years and currently reside in the San Francisco Bay Area. I am not currently seeking employment opportunities, but please feel free to reach out with any feedback, questions, or other concerns via the <span class="page-scroll"><a href="#contact" style="color: #59463B;">contact form</a></span> or <span class="page-scroll"><a href="#otherchannels" style="color: #59463B;">other channels</a></span> listed at the bottom of this page.</p>
                 </div>
                 <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
@@ -176,7 +179,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/d3Large.png" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
@@ -188,7 +191,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Places I've Worked</h2>
+                    <h2>Employers</h2>
                     <hr class="star-tertiary">
                 </div>
             </div>
@@ -202,7 +205,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/employment/cabin.png" class="img-responsive" alt="">
+                        <img src="img/employment/FacebookLogo.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -222,7 +225,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/employment/circus.png" class="img-responsive" alt="">
+                        <img src="img/employment/SocialCodeLogo.png" class="img-responsive" alt="">
                     </a>
                 </div>
 
@@ -236,7 +239,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/employment/game.png" class="img-responsive" alt="">
+                        <img src="img/employment/UrbanInstituteLogo.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -246,7 +249,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/employment/submarine.png" class="img-responsive" alt="">
+                        <img src="img/employment/ICILogo.png" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
@@ -315,7 +318,7 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                     </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-4" id="otherchannels">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
@@ -504,6 +507,44 @@
                                 <li>editing and revising the manuscript.</li>
                             </ul>
                             <p>More information about the book is available at the <a href="http://www.urban.org/gayatlas" target="_blank">Urban Institute Press.</a></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Interstate Migration Visualization</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/d3Large.png" class="img-responsive img-centered" alt="">
+                            <div class="col-sm-4">
+                                <img src="img/portfolio/d3Full.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="img/portfolio/d3Line.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="img/portfolio/d3Bar.png" class="img-responsive" alt="">
+                            </div>
+                            <p>This was an individual class project in Professor Marti Hearst's <a href="http://www.ischool.berkeley.edu/courses/i247" target="_blank">Information Visualization</a> class. The interface is implemented entirely in <a href="http://d3js.org/" target="_blank">D3.js</a>, and primarily consists of a chord diagram representing the interstate migration patterns for a single year. When a user hovers over a particular state, line and bar charts appear to show historical unemployment and housing cost trends, as well as the top marginal state income tax rate, for the state of interest as well as the state(s) of greatest in- and out-migration. For this project, I was responsible for:</p>
+                            <ul class="desclist">
+                                <li>identifying, processing, and analyzing data,</li>
+                                <li>coding the D3.js visualizations and interactions, and</li>
+                                <li>creating a web page to host the visualization.</li>
+                            </ul>
+                            <p>For more information, please see <strong><a href="http://people.ischool.berkeley.edu/~jost/i247-d3/" target="_blank">the visualization.</a></strong></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
